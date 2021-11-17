@@ -1,0 +1,59 @@
+
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: rgb(40, 144, 158);
+}
+
+li {
+    Font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    /*font-weight: bold;
+    font-size: 32px;*/
+}
+
+.resumelistheader {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+
+.justify {text-align: justify;}
+
+.homebg {background-image: url( 'images/Background.jpeg');
+background-position: bottom right;
+background-repeat: repeat;
+}
+
+.box1 {
+    border: solid 1x purple;
+}
+
+.box2 {
+    padding: 4px;
+}
+
+.box3 {
+    margin: 5px;
+}
+
+.box4 {
+    padding-left: 30px;
+    margin: 100px;
+    border-right: solid, 5px, blue;
+}
+
+/*<p class="box1">This is a <span class="bold">great paragraph</span> about me.</p class="box1">*/
